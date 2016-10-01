@@ -29,5 +29,5 @@
     }
   }
 
-window.App.Router = new Router('.visualizer');
+window.App.Router = new Router('.container');
 }(window));
