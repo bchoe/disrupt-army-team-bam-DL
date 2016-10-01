@@ -525,11 +525,14 @@
       },
       grid: {
         y: {
-          lines: [{value:145, text: 'Event Goals'}, {value: 0}]
+          lines: [{value:160, text: 'Event Goals'}, {value: 0}]
         }
       },
     });
+    var titleLabel = document.createElement('h3');
+    titleLabel.innerHTML = "Monthly Event Goals";
     vizDiv.appendChild(chart.element);
+    vizDiv.appendChild(titleLabel);
     readyFunc(vizDiv);
   }
 } //eof class Goals
