@@ -28,7 +28,7 @@ container.appendChild(barChart.element);
 */
 //individual graphs
 
-let graphs = document.querySelectorAll(".dataViz");
+/*let graphs = document.querySelectorAll(".dataViz");
 
 graphs = Array.from(graphs);
 
@@ -60,3 +60,4 @@ function applyGraph(element, index, array) {
 }
 
 graphs.forEach(applyGraph);
+*/
