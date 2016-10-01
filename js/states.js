@@ -36,7 +36,7 @@
       this.ready = null;
       //console.log('1');
 
-      App.utils.Get('../data/CG.json', (data) => {
+      App.utils.Get('./data/CG.json', (data) => {
         //console.log('2');
 
         const parsedPeopleData = JSON.parse(data);
@@ -79,7 +79,7 @@
         //this.render(this.ready); //uncomment
       });
 
-      App.utils.Get('../data/COS.json', (data) => {
+      App.utils.Get('./data/COS.json', (data) => {
         //console.log('2');
         const parsedPeopleData = JSON.parse(data);
         //this.people = parsedPeopleData.results;
@@ -122,7 +122,7 @@
       //this.render(this.ready); //uncomment
       });
 
-      App.utils.Get('../data/DCGAR.json', (data) => {
+      App.utils.Get('./data/DCGAR.json', (data) => {
       //console.log('2');
         const parsedPeopleData = JSON.parse(data);
       //this.people = parsedPeopleData.results;
@@ -162,7 +162,7 @@
         this.peopleDonut.push(dCGARDonutData);
       //this.render(this.ready); //uncomment
       });
-      App.utils.Get('../data/DCGN.json', (data) => {
+      App.utils.Get('./data/DCGN.json', (data) => {
       //console.log('2');
         const parsedPeopleData = JSON.parse(data);
                     //this.people = parsedPeopleData.results;
@@ -203,7 +203,7 @@
       //this.render(this.ready); //uncomment
 
       });
-      App.utils.Get('../data/DCGNG.json', (data) => {
+      App.utils.Get('./data/DCGNG.json', (data) => {
       //console.log('2');
         const parsedPeopleData = JSON.parse(data);
                     //this.people = parsedPeopleData.results;
@@ -244,7 +244,7 @@
       //this.render(this.ready); //uncomment
       });
 
-      App.utils.Get('../data/DCGS.json', (data) => {
+      App.utils.Get('./data/DCGS.json', (data) => {
       //console.log('2');
         const parsedPeopleData = JSON.parse(data);
                     //this.people = parsedPeopleData.results;
@@ -284,7 +284,7 @@
         this.peopleDonut.push(dCGSDonutData);
       //setTimeout(this.render(this.ready), 1000); //uncomment
       });
-      App.utils.Get('../data/G3.json', (data) => {
+      App.utils.Get('./data/G3.json', (data) => {
       //console.log('2');
         const parsedPeopleData = JSON.parse(data);
                     //this.people = parsedPeopleData.results;
@@ -388,13 +388,13 @@
       };
 
       const fileNames = [
-        '../data/CG.json',
-        '../data/COS.json',
-        '../data/DCGAR.json',
-        '../data/DCGN.json',
-        '../data/DCGNG.json',
-        '../data/DCGS.json',
-        '../data/G3.json'];
+        './data/CG.json',
+        './data/COS.json',
+        './data/DCGAR.json',
+        './data/DCGN.json',
+        './data/DCGNG.json',
+        './data/DCGS.json',
+        './data/G3.json'];
 
       let countDown = 7;
 
