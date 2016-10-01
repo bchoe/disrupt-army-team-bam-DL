@@ -17,7 +17,7 @@
           //console.log('in router random');
           break;
         case 'goals':
-          state = new App.states.Places();
+          state = new App.states.Goals();
           break;
       }
 
@@ -30,5 +30,4 @@
   }
 
 window.App.Router = new Router('.visualizer');
-App.Router.navigate('people');
 }(window));
