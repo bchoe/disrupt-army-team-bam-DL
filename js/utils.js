@@ -10,9 +10,6 @@ const Get = (url, callback) => {
   // create new XHR object
 
   // attach events: 'load', 'error'
-  oReq.addEventListener('progress', function(){
-    console.log('PROGRESS TICK');
-  });
   oReq.addEventListener('load', function(){
     callback(this.responseText);
   });
