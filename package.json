@@ -1,0 +1,25 @@
+{
+  "name": "disrupt-army-team-bam-dl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchoe/disrupt-army-team-bam-DL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bchoe/disrupt-army-team-bam-DL/issues"
+  },
+  "homepage": "https://github.com/bchoe/disrupt-army-team-bam-DL#readme",
+  "devDependencies": {
+    "connect": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
