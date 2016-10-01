@@ -6,14 +6,14 @@
 
   class Router {
     constructor(containerId) {
-      this.container = document.getElementById(containerId);
+      this.container = document.querySelector(containerId);
     }
 
     navigate(route){
       let state = null; // new App.states.People ();
       switch(route) {
-        case 'random':
-          state = new App.states.Newtech();
+        case 'people':
+          state = new App.states.People();
           //console.log('in router random');
           break;
         case 'places':
@@ -32,5 +32,6 @@
     }
   }
 
-window.App.Router = new Router('container');
+window.App.Router = new Router('.visualizer');
+App.Router.navigate('people');
 }(window));
