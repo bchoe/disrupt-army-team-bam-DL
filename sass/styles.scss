@@ -1,5 +1,82 @@
-$dark-color : #333333;
+@import 'https://fonts.googleapis.com/css?family=Play|Russo+One';
+
+$lightest-color: #EEE6AB;
+$light-color: #C5BC8E;
+$medium-color: #696758;
+$dark-color : #45484B;
+$darkest-color: #36393B;
+$shadow-color: darken($darkest-color, 10%);
 
 body {
-  background: $dark-color;
+  background: $darkest-color;
+  color: $light-color;
+}
+
+.nav {
+  h1 {
+    padding-bottom: 8px;
+    margin: 8px;
+    font-family: 'Russo One', sans-serif;
+  }
+  position: fixed;
+  top: 0px;
+  background-color: $dark-color;
+  height: 48px;
+  width: 100%;
+  margin: -8px;
+  margin-bottom: 8px;
+  padding: 8px;
+  line-height: 48px;
+  padding-left: 48px;
+  font-family: 'Play', sans-serif;
+  text-shadow: 0px 2px 1px $darkest-color;
+  box-shadow: 0px 2px 1px $shadow-color;
+  .timePeriods {
+    position: absolute;
+    right: 0px;
+    top: -8px;
+    padding-top: 12px;
+    height: 44px;
+    list-style-type: none;
+    width: 55%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    li {
+      margin-top: 0px;
+      padding: 16px;
+      padding-top: 0px;
+      padding-left: 32px;
+      padding-right: 32px;
+      margin-bottom: 0px;
+    }
+    li:hover {
+      background-color: $medium-color;
+      transition: background-color 0.3s ease;
+    }
+  }
+}
+.visualizer {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  align-items: flex-start;
+  .dataViz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5%;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+.c3 {
+  max-height: 300px !important;
 }

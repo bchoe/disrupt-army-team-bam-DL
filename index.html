@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Disrupt Army HACK</title>
+  <title>Personnel Visualizer</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css">
   <link rel="stylesheet" href="css/styles.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <h1>DISRUPT ARMY</h1>
+  <div class="nav">
+    <h1>PERSONNEL</h1><ul class="timePeriods"><li>OCTOBER</li><li>NOVEMBER</li><li>DECEMBER</li><li>Q1 FY17</li></ul>
+  </div>
+  <div class="visualizer">
+    <div id="person1" class="dataViz"></div>
+    <div id="person2" class="dataViz"></div>
+    <div id="person3" class="dataViz"></div>
+    <div id="person4" class="dataViz"></div>
+    <div id="person5" class="dataViz"></div>
+    <div id="person6" class="dataViz"></div>
+    <div id="person7" class="dataViz"></div>
+    <div id="total" class="dataViz"></div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+  <script type="text/javascript" src="fakeGraphs.js"></script>
 </body>
 </html>
