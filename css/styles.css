@@ -64,9 +64,24 @@ body {
     margin-right: 8px; }
 
 text {
+  z-index: 99 !important;
   fill: #EEE6AB !important;
   font-family: "Play" !important;
   max-height: 300px !important; }
+
+td {
+  font-family: "Play";
+  color: #45484B; }
+
+tbody {
+  background-color: #C5BC8E !important;
+  border-color: #696758; }
+
+.c3-tooltip tr {
+  border-color: #696758; }
+
+.c3-tooltip td {
+  background-color: #C5BC8E !important; }
 
 .c3-chart-arc path {
   stroke: #45484B; }
