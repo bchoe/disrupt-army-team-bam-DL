@@ -42,44 +42,88 @@ let comGenDiv = document.getElementById('comGen');
         ['Staff', 35],
         ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
       onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     },
     donut: {
-        title: "Commanding General"
+        title: "CG"
     }
   });
 
  comGenDiv.appendChild(chart.element);
 
-/*let comGenDiv = document.getElementById('#cheifOfStaff');
+let cosDiv = document.getElementById('cheifOfStaff');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
       onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     },
     donut: {
-        title: "Chief of Staff"
+        title: "COS"
     }
   });
 
-let comGenDiv = document.getElementById('#deputyCg-Ar');
+ cosDiv.appendChild(chart.element);
+
+let deputyComGenArDiv = document.getElementById('deputyCg-Ar');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -90,14 +134,32 @@ let comGenDiv = document.getElementById('#deputyCg-Ar');
     }
   });
 
-let comGenDiv = document.getElementById('#deputyCg-Ng');
+ deputyComGenArDiv.appendChild(chart.element);
+
+let deputyComGenNgDiv = document.getElementById('deputyCg-Ng');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -108,14 +170,32 @@ let comGenDiv = document.getElementById('#deputyCg-Ng');
     }
   });
 
-let comGenDiv = document.getElementById('#deputyCG-Nat');
+deputyComGenNgDiv.appendChild(chart.element);
+
+let deputyComGenNatDiv = document.getElementById('deputyCG-Nat');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -126,14 +206,32 @@ let comGenDiv = document.getElementById('#deputyCG-Nat');
     }
   });
 
-let comGenDiv = document.getElementById('#deputyCG-S');
+ deputyComGenNatDiv.appendChild(chart.element);
+
+let deputyComGenSouthDiv = document.getElementById('deputyCG-S');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -144,14 +242,32 @@ let comGenDiv = document.getElementById('#deputyCG-S');
     }
   });
 
-let comGenDiv = document.getElementById('#g-3');
+ deputyComGenSouthDiv.appendChild(chart.element);
+
+let g3Div = document.getElementById('g-3');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -162,14 +278,32 @@ let comGenDiv = document.getElementById('#g-3');
     }
   });
 
-let comGenDiv = document.getElementById('#total');
+ g3Div.appendChild(chart.element);
+
+let totalDiv = document.getElementById('total');
 
  var chart = c3.generate({
     data: {
       columns: [
-        ['data1', 30],
-        ['data2', 120],
+        ['NATO', 30],
+        ['Allies', 120],
+        ['Army', 48],
+        ['Officials', 65],
+        ['Supporters', 90],
+        ['Joint', 25],
+        ['Staff', 35],
+        ['free time', 75]
       ],
+       colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -180,5 +314,5 @@ let comGenDiv = document.getElementById('#total');
     }
   });
 
+total.appendChild(chart.element);
 
-*/
