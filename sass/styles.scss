@@ -66,6 +66,9 @@ body {
     }
   }
 }
+.container {
+  padding-top: 16px;
+}
 .visualizer {
   position: relative;
   margin: auto;
@@ -111,4 +114,7 @@ tbody {
 }
 .c3-chart-arc path {
   stroke: $dark-color;
+}
+.c3-ygrid-line line {
+  stroke: red !important;
 }

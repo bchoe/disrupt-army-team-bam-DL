@@ -29,7 +29,7 @@
           ['Army',0],
           ['Staff',0],
           ['Joint',0],
-          ['FreeTime',0]
+          ['Unscheduled',0]
         ];
       };
 
@@ -322,7 +322,7 @@
         } // eof for
         // calculating free days
         this.peopleDonut.push(g3DonutData);
-        setTimeout(this.render(this.ready), 1500); //uncomment
+        setTimeout(this.render(this.ready), 2000); //uncomment
       });
 
     }
@@ -349,7 +349,7 @@
               Supporters: '#6B1929',
               Joint: '#37294F',
               Staff: '#686969',
-              FreeTime: '#734F1A'
+              Unscheduled: '#734F1A'
             },
             type : 'donut',
             onclick: function (d, i) { console.log("onclick", d, i); },
@@ -398,7 +398,7 @@
 
       let countDown = 7;
 
-      for (var i = 0; i <= countDown ; i++) {
+      for (var i = 0; i < countDown ; i++) {
 
         App.utils.Get(fileNames[i], (data) => {
       //console.log('2');
@@ -483,6 +483,9 @@
 
     let objectives = ['Objectives', 120, 0, 185, 145, 190];
 
+    let vizDiv = document.createElement('div');
+    vizDiv.className = 'visualizer';
+
     var chart = c3.generate({
       data: {
         columns: [
@@ -493,27 +496,41 @@
             ['Army', 16, 0, 16, 25, 26],
             ['Staff', 12, 0, 22, 27, 19],
             ['Joint', 15, 0, 30, 25, 27],
-            ['FreeTime', -39, 0, -12, -10, -21],
+            ['Unscheduled', -39, 0, -12, -10, -21],
         ],
+        colors: {
+          NATO: '#263F77',
+          Allies: '#6B855E',
+          Army: '#4B6A18',
+          Officials: '#73641A',
+          Supporters: '#6B1929',
+          Joint: '#37294F',
+          Staff: '#686969',
+          Unscheduled: '#734F1A'
+        },
         type: 'bar',
         groups: [
-        ['Supporters','Officials','Allies','NATO','Army','Staff','Joint']
+        ['Supporters','Officials','Allies','NATO','Army','Staff','Joint', 'Unscheduled']
         ]
       },
       axis: {
         x: {
-          tick: {
-                  values:['2016-08',
+          type: 'category',
+          categories :['2016-08',
                   '2016-09',
                   '2016-10',
                   '2016-11',
                   '2016-12']
-                  }
         }
-      }
+      },
+      grid: {
+        y: {
+          lines: [{value:145, text: 'Event Goals'}, {value: 0}]
+        }
+      },
     });
-
-    readyFunc(chart.element);
+    vizDiv.appendChild(chart.element);
+    readyFunc(vizDiv);
   }
 } //eof class Goals
 

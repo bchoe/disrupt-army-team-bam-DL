@@ -17,7 +17,7 @@ let comGenDiv = document.getElementById('comGen');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -27,7 +27,7 @@ let comGenDiv = document.getElementById('comGen');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -53,7 +53,7 @@ let cosDiv = document.getElementById('chiefOfStaff');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -63,7 +63,7 @@ let cosDiv = document.getElementById('chiefOfStaff');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -89,7 +89,7 @@ let deputyComGenArDiv = document.getElementById('deputyCg-Ar');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -99,7 +99,7 @@ let deputyComGenArDiv = document.getElementById('deputyCg-Ar');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -125,7 +125,7 @@ let deputyComGenNgDiv = document.getElementById('deputyCg-Ng');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -135,7 +135,7 @@ let deputyComGenNgDiv = document.getElementById('deputyCg-Ng');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -161,7 +161,7 @@ let deputyComGenNatDiv = document.getElementById('deputyCG-Nat');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -171,7 +171,7 @@ let deputyComGenNatDiv = document.getElementById('deputyCG-Nat');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -197,7 +197,7 @@ let deputyComGenSouthDiv = document.getElementById('deputyCG-S');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -207,7 +207,7 @@ let deputyComGenSouthDiv = document.getElementById('deputyCG-S');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -233,7 +233,7 @@ let g3Div = document.getElementById('g-3');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -243,7 +243,7 @@ let g3Div = document.getElementById('g-3');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -269,7 +269,7 @@ let totalDiv = document.getElementById('total');
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['FreeTime', 75]
+        ['Unscheduled', 75]
       ],
        colors: {
         NATO: '#263F77',
@@ -279,7 +279,7 @@ let totalDiv = document.getElementById('total');
         Supporters: '#6B1929',
         Joint: '#37294F',
         Staff: '#686969',
-        FreeTime: '#734F1A'
+        Unscheduled: '#734F1A'
       },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },

@@ -44,6 +44,9 @@ body {
       background-color: #696758;
       transition: background-color 0.3s ease; }
 
+.container {
+  padding-top: 16px; }
+
 .visualizer {
   position: relative;
   margin: auto;
@@ -85,3 +88,6 @@ tbody {
 
 .c3-chart-arc path {
   stroke: #45484B; }
+
+.c3-ygrid-line line {
+  stroke: red !important; }
