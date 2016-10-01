@@ -16,11 +16,8 @@
           state = new App.states.People();
           //console.log('in router random');
           break;
-        case 'places':
+        case 'goals':
           state = new App.states.Places();
-          break;
-        case 'spaceships':
-          state = new App.states.Spaceships();
           break;
       }
 
