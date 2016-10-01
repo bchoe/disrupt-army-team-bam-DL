@@ -27,8 +27,8 @@ container.appendChild(barChart.element);
 
 */
 //individual graphs
-
-/*let graphs = document.querySelectorAll(".dataViz");
+/*
+let graphs = document.querySelectorAll(".dataViz");
 
 graphs = Array.from(graphs);
 
@@ -44,8 +44,18 @@ function applyGraph(element, index, array) {
         ['Supporters', 90],
         ['Joint', 25],
         ['Staff', 35],
-        ['free time', 75]
+        ['FreeTime', 75]
       ],
+      colors: {
+        NATO: '#263F77',
+        Allies: '#6B855E',
+        Army: '#4B6A18',
+        Officials: '#73641A',
+        Supporters: '#6B1929',
+        Joint: '#37294F',
+        Staff: '#686969',
+        FreeTime: '#734F1A'
+      },
       type : 'donut',
       onclick: function (d, i) { console.log("onclick", d, i); },
       onmouseover: function (d, i) { console.log("onmouseover", d, i); },

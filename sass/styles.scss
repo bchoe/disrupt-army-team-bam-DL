@@ -88,9 +88,26 @@ body {
 }
 
 text {
+  z-index: 99 !important;
   fill: $lightest-color !important;
   font-family: "Play" !important;
   max-height: 300px !important;
+}
+
+td {
+  font-family: "Play";
+  color: $dark-color;
+}
+
+tbody {
+  background-color: $light-color !important;
+  border-color: $medium-color;
+}
+.c3-tooltip tr {
+  border-color: $medium-color;
+}
+.c3-tooltip td {
+  background-color: $light-color !important;
 }
 .c3-chart-arc path {
   stroke: $dark-color;
