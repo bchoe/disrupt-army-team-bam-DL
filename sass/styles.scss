@@ -7,6 +7,15 @@ $dark-color : #45484B;
 $darkest-color: #36393B;
 $shadow-color: darken($darkest-color, 10%);
 
+$red: #6B1929;
+$orange: #734F1A;
+$yellow: #73641A;
+$bold-green: #4B6A18;
+$green: #6B855E;
+$blue: #263F77;
+$purple: #37294F;
+$gray: #686969;
+
 body {
   background: $darkest-color;
   color: $light-color;
@@ -18,6 +27,7 @@ body {
     margin: 8px;
     font-family: 'Russo One', sans-serif;
   }
+  z-index: 999;
   position: fixed;
   top: 0px;
   background-color: $dark-color;
@@ -77,6 +87,11 @@ body {
   }
 }
 
-.c3 {
+text {
+  fill: $lightest-color !important;
+  font-family: "Play" !important;
   max-height: 300px !important;
+}
+.c3-chart-arc path {
+  stroke: $dark-color;
 }

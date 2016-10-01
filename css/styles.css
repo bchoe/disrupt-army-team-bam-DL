@@ -4,6 +4,7 @@ body {
   color: #C5BC8E; }
 
 .nav {
+  z-index: 999;
   position: fixed;
   top: 0px;
   background-color: #45484B;
@@ -62,5 +63,10 @@ body {
     margin-left: 8px;
     margin-right: 8px; }
 
-.c3 {
+text {
+  fill: #EEE6AB !important;
+  font-family: "Play" !important;
   max-height: 300px !important; }
+
+.c3-chart-arc path {
+  stroke: #45484B; }
