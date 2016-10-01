@@ -23,7 +23,7 @@ body {
     font-family: 'Russo One', sans-serif; }
   .nav .timePeriods {
     position: absolute;
-    right: 48px;
+    right: 0px;
     top: -8px;
     padding-top: 12px;
     height: 44px;
@@ -31,20 +31,36 @@ body {
     width: 55%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around; }
+    justify-content: stretch; }
     .nav .timePeriods li {
       margin-top: 0px;
       padding: 16px;
       padding-top: 0px;
+      padding-left: 32px;
+      padding-right: 32px;
       margin-bottom: 0px; }
     .nav .timePeriods li:hover {
-      background-color: #696758; }
+      background-color: #696758;
+      transition: background-color 0.3s ease; }
 
 .visualizer {
   position: relative;
   margin: auto;
-  width: 90%;
-  top: 80px;
+  width: 80%;
+  top: 32px;
+  margin-bottom: 32px;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  flex-flow: row wrap;
+  justify-content: stretch;
+  align-items: flex-start; }
+  .visualizer .dataViz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5%;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px; }
+
+.c3 {
+  max-height: 300px !important; }
